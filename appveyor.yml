@@ -12,6 +12,7 @@ install:
 # Post-install test scripts.
 test_script:
   # Output useful info for debugging.
+  - node platform
   - node --version
   - npm --version
   # run tests
