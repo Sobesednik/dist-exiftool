@@ -29,19 +29,19 @@
   "config": {
     "platformDependentModules": {
       "linux": [
-        "exiftool.pl"
+        "exiftool.pl@10.25"
       ],
       "win32": [
-        "exiftool.exe"
+        "exiftool.exe@10.25"
       ],
       "darwin": [
-        "exiftool.pl"
+        "exiftool.pl@10.25"
       ],
       "freebsd": [
-        "exiftool.pl"
+        "exiftool.pl@10.25"
       ],
       "sunos": [
-        "exiftool.pl"
+        "exiftool.pl@10.25"
       ]
     }
   }

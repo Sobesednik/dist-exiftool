@@ -4,6 +4,7 @@ const assert = require('assert');
 const exiftool = require('../index');
 
 describe('exiftool', function () {
+	this.timeout(5000);
 	it('should export a path to current executable', function () {
 		const exePath = path.join(__dirname, '../node_modules/exiftool.exe/vendor/exiftool.exe');
 		const plPath = path.join(__dirname, '../node_modules/exiftool.pl/vendor/exiftool');
@@ -21,6 +22,16 @@ describe('exiftool', function () {
 			}
 			assert.equal(stdout.trim(), 'test-out');
 			assert.equal(stderr.trim(), 'test-err');
+			done();
+		});
+	});
+	it('should have version 10.25', function (done) {
+		execFile(exiftool, ['-ver'], (err, stdout, stderr) => {
+			if (err) {
+				done(err);
+				return;
+			}
+			assert.equal(stdout.trim(), '10.25');
 			done();
 		});
 	});

@@ -1,6 +1,8 @@
 # dist-exiftool
 A distribution of _exiftool_. Depending on the platform, it will install
-either `exiftool.pl` or `exiftool.exe` module. Current version is 10.25.
+either [exiftool.pl](https://www.npmjs.com/package/exiftool.pl) or
+[exiftool.exe](https://www.npmjs.com/package/exiftool.exe) module.
+Current version is 10.25.
 
 [![npm version](https://badge.fury.io/js/dist-exiftool.svg)](https://badge.fury.io/js/dist-exiftool)
 [![Build Status](https://travis-ci.org/Sobesednik/dist-exiftool.svg?branch=master)](https://travis-ci.org/Sobesednik/dist-exiftool)
