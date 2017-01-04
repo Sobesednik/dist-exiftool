@@ -26,6 +26,10 @@
   "dependencies": {
     "platform-dependent-modules": "0.0.14"
   },
+  "optionalDependencies": {
+    "exiftool.exe": "10.33",
+    "exiftool.pl": "10.33"
+  },
   "config": {
     "platformDependentModules": {
       "linux": [
