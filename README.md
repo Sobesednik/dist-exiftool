@@ -12,8 +12,8 @@ Current version is 10.33.
 The module exports a path to the exiftool executable.
 
 ```js
-const exec = require('child_process').execFile;
-const exiftool = require('exiftool');
+const execFile = require('child_process').execFile;
+const exiftool = require('dist-exiftool');
 
 execFile(exiftool, ['-j', 'image.jpg'], (error, stdout, stderr) => {
 	if (error) {
