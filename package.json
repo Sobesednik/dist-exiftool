@@ -1,6 +1,6 @@
 {
   "name": "dist-exiftool",
-  "version": "10.53.0",
+  "version": "11.01.0",
   "description": "Platform-dependent distribution of exiftool.",
   "main": "index.js",
   "scripts": {
@@ -28,25 +28,25 @@
     "platform-dependent-modules": "0.0.14"
   },
   "optionalDependencies": {
-    "exiftool.exe": "10.53",
-    "exiftool.pl": "10.53"
+    "exiftool.exe": "11.01",
+    "exiftool.pl": "11.01"
   },
   "config": {
     "platformDependentModules": {
       "linux": [
-        "exiftool.pl@10.53"
+        "exiftool.pl@11.01"
       ],
       "win32": [
-        "exiftool.exe@10.53"
+        "exiftool.exe@11.01"
       ],
       "darwin": [
-        "exiftool.pl@10.53"
+        "exiftool.pl@11.01"
       ],
       "freebsd": [
-        "exiftool.pl@10.53"
+        "exiftool.pl@11.01"
       ],
       "sunos": [
-        "exiftool.pl@10.53"
+        "exiftool.pl@11.01"
       ]
     }
   }
